@@ -62,3 +62,9 @@ footer{
     overflow: auto;
     height: 80%;
 }
+
+.inner_float{
+    background-image:url('images/cafe.png');
+    width: 100px;
+    height: ;
+}
