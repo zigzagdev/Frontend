@@ -30,3 +30,11 @@
 
 }
 
+.drink_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 130px;
+
+}
+
