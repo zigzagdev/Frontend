@@ -18,7 +18,7 @@
 
 .item-title{
     color: saddlebrown;
-    margin-left: 180px;
+    margin-left: 9px;
     margin-top: 30px;
 }
 
@@ -46,4 +46,19 @@ h3{
     padding-left: 300px;
 }
 
-p
+footer ul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+footer{
+    background-color: hotpink;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0;
+    overflow: auto;
+    height: 80%;
+}
