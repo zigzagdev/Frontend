@@ -1,0 +1,85 @@
+
+
+.float ul {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 100px;
+    float: right;
+}
+.float li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding: 13px;
+    background: white;
+    color:white;
+    border-bottom: 2px solid #2ac5b3;
+}
+
+.item-title{
+    color: saddlebrown;
+    margin-left: 9px;
+    margin-top: 30px;
+}
+
+.menu_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 130px;
+
+}
+
+.drink_list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 130px;
+}
+
+.sec-title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    padding-left: 300px;
+}
+
+footer ul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+footer{
+    background-color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0;
+    overflow: auto;
+    height: 80%;
+}
+
+.starbucks{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 160px;
+    color: aliceblue;
+
+}
+
+.menu{
+    background-color: black;
+}
+.head{
+    background-color: aliceblue;
+}
+.float{
+    background-image: url('images/cafe.jpeg');
+    height: 400px;
+    background-color: green;
+}
