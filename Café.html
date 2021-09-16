@@ -5,13 +5,13 @@
 
 <header style="background-color: ghostwhite">
   <div class="float">
-    <div class="starbucks">StarBucks</div>
+    <div class="starbucks" id="top">StarBucks</div>
       <nav>
         <div class="head">
           <ul>
-            <li><a href="#">Drink</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Location</a></li>
+            <li><a href="#drink">Drink</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#location">Location</a></li>
           </ul>
         </div>
       </nav>
@@ -23,7 +23,7 @@
   <div class="menu">
     <section style="background-color: beige">
        <h2 style="text-align: center;margin-top: 100px;color: darkgray; font-style: inherit;font-size: 50px">~MENU~</h2>
-        <h3 class="item-title">Beverage</h3>
+        <h3 class="item-title" id="drink">Beverage</h3>
       <br>
         <dl class="drink_list">
             <div style="text-align: center; margin: 0px 30px 30px 100px">
@@ -59,7 +59,7 @@
   </div>
 
     <section style="background-color: cornsilk">
-      <h3 class="item-title">Food</h3><br>
+      <h3 class="item-title" id="food">Food</h3><br>
         <dl class="drink_list">
           <div style="text-align: center;margin: 0px 30px 30px 40px">
             <img src="images/1.jpeg" width="200px" height="200px">
@@ -79,8 +79,8 @@
   </section>
 
   <section id="location">
-    <div class="location-img fixed-bg">
-      <h2 class="sec-title" id="target">LOCATION</h2>
+    <div class="location-img">
+      <h2 class="sec-title"><a href="#top">LOCATION</a></h2>
     </div>
 
     <div class="location-content wrapper">
