@@ -11,8 +11,8 @@
     list-style: none;
     margin-right: 20px;
     padding: 13px;
-    background: #333;
-    color: #fff;
+    background: white;
+    color:white;
     border-bottom: 2px solid #2ac5b3;
 }
 
@@ -63,8 +63,23 @@ footer{
     height: 80%;
 }
 
-.inner_float{
-    background-image:url('images/cafe.png');
-    width: 100px;
-    height: ;
+.starbucks{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 160px;
+    color: aliceblue;
+
+}
+
+.menu{
+    background-color: black;
+}
+.head{
+    background-color: aliceblue;
+}
+.float{
+    background-image: url('images/cafe.jpeg');
+    height: 400px;
+    background-color: green;
 }
